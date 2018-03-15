@@ -23,4 +23,10 @@ print("type of b is:{0}\n".format(type(b)))
 print("adding them both will internally convert int to float\n")
 
 print("sum of a+b:{0}".format(a+b))
-print("Type of the result for a+b:{0}".format(type(a+b)))
+print("Type of the result for a+b:{0}\n".format(type(a+b)))
+
+#Explicit conversion of types in python(int(variable_name))
+hello_float = 234.9878838
+print("Value of hello_float: {0}".format(hello_float))
+print("After explicit conversion:{0}".format(int(hello_float))) 
+
